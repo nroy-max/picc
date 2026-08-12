@@ -23,11 +23,10 @@ The key point: **private channels are included** as long as your Slack token bel
 
 - Node.js installed (`node -v` to confirm)
 - A Slack token with the following OAuth scopes:
-  - `channels:history` — read public channel messages
-  - `groups:history` — read private channel messages
-  - `channels:read` — list public channels (needed for name → ID resolution)
-  - `groups:read` — list private channels
-
+  - `channels:history` — View messages and other content in public channels (cloudsuccess-orgcs-hq-questions) that "PICC" has been added to
+  - `canvases:read` - "PICC" will be able to access contents of canvas (F0BEA7ZK2RJ) created inside Slack.
+  - `channels:read` — View basic information about public channels (cloudsuccess-orgcs-hq-questions) in a workspace
+  - `incoming-webhook` — Post messages to specific channels (cloudsuccess-orgcs-hq-questions)  in Slack
 ### Getting a Token
 
 **Option A — User token (simplest for personal use):**
